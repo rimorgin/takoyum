@@ -12,7 +12,7 @@ const encryptTransform = createTransform(
   },
   (outboundState, key) => {
     // Decrypt the state
-    const bytes = CryptoJS.AES.decrypt(outboundState, 'secret-key');
+    const bytes = CryptoJS.AES.decrypt(outboundState, __REDUX_SECRET_KEY__);
     const decryptedState = JSON.parse(bytes.toString(CryptoJS.enc.Utf8));
     return decryptedState;
   }

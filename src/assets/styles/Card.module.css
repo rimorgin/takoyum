@@ -1,0 +1,22 @@
+
+.card {
+    width: 199px;
+    height: 254px;
+    left: 0px;
+    top: 21px;
+    position: absolute;
+    background: var(--background);
+    box-shadow: rgba(45, 40, 26, 0.75) 6px 8px 0px;
+    border-radius: 18px;
+}
+
+.card-img {
+    width: 148px;
+    height: 148px;
+    left: 25px;
+    top: 148px;
+    position: absolute;
+    border-radius: 9999px;
+    border: 4px solid rgb(226, 85, 64);
+}
+

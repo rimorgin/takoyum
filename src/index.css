@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  margin: 0;
 
   color-scheme: light dark;
 
@@ -10,17 +11,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  
   --background: white;
   --color: rgb(18, 18, 18);
   --text-primary: rgb(18, 18, 18);
   --text-secondary: royalblue;
   --accent: purple;
+  --shadow: #323232;
 }
 [data-theme='dark'] {
-  --background: rgb(19, 19, 19);
+  --background: #323232;
   --text-primary: white;
   --text-secondary: grey;
   --accent: darkred;
+  --shadow: white;
 }
 
 body {
