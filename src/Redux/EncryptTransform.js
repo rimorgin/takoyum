@@ -6,7 +6,7 @@ const encryptTransform = createTransform(
     // Encrypt the state
     const encryptedState = CryptoJS.AES.encrypt(
       JSON.stringify(inboundState),
-      'secret-key'
+      __REDUX_SECRET_KEY__
     ).toString();
     return encryptedState;
   },
